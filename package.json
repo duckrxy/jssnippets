@@ -1,0 +1,24 @@
+{
+  "name": "nodescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "@types/node": "^6.0.40",
+    "@types/xml2js": "^0.4.0",
+    "@types/xml2json": "^0.10.0",
+    "@types/xmldom": "^0.1.29",
+    "fs": "^0.0.1-security",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.0",
+    "xmldom": "^0.1.27",
+    "xpath.js": "^1.0.7"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
